@@ -104,3 +104,26 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+.movie_page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.movie_page a {
+  align-self: flex-start;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: whitesmoke;
+  background-color: rgb(38, 37, 37);
+}
